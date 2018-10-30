@@ -3,6 +3,7 @@
 class Routing {
 
 	public static function buildRoute() {
+		
 		$controllerName = 'IndexController';
 		$modelName = 'IndexModel';
 		$action = 'index';
@@ -11,8 +12,8 @@ class Routing {
 
 
 		if ($route[1] != '') {
-			$controllerName = ucfirst($route[1] , 'Controller');
-			$modelName = ucfirst($route[1] , 'Model');
+			$controllerName = ucfirst($route[1] . 'Controller');
+			$modelName = ucfirst($route[1] . 'Model');
 		}
 
 
