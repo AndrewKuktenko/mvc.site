@@ -14,7 +14,6 @@
 	<header id="header" class="">
 		
 	</header><!-- /header -->
-
 	<div id="content">
 		<div class="container table-block">
 		    <div class="row table-cell-block">
